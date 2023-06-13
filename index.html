@@ -14,12 +14,12 @@
 
     <div id="app">
         <h1>
-            lista di mail
+            Lista di mail
         </h1>
 
         <ul>
-            <li>
-
+            <li v-for="(data) in emailContainer">
+                {{data}}
             </li>
         </ul>
     </div>
