@@ -17,7 +17,7 @@
             Lista di mail
         </h1>
 
-        <ul v-if="emailContainer">
+        <ul v-if="emailContainer.length>=10">
             <li v-for="(data) in emailContainer">
                 {{data}}
             </li>
